@@ -19,6 +19,7 @@ def index(request):
         'title': 'TODO LIST',
         'to_update': "false",
     }
+    print(context)
     return render(request, 'todo/index.html', context=context)
 
 
